@@ -1,0 +1,914 @@
+[
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 49.46,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:51.299203Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 26.51,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:53.040216Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 22.17,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:53.260385Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 21.23,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:53.446409Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 27.52,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:53.667753Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 24.1,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:53.885393Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 19.44,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:54.107614Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_temp1",
+    "sensorType": "temperature",
+    "value": 25.75,
+    "unit": "\u00b0C",
+    "timestamp": "2025-12-03T12:51:54.313601Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 55.94,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:14.962128Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 67.73,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:15.303126Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 40.71,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:15.537252Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 68.42,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:15.771236Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 46.33,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:16.025336Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 65.64,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:16.277353Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 49.7,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:16.526252Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 64.48,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:16.762332Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 69.38,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:17.042336Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 55.98,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:17.293697Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 42.69,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:17.529697Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 51.77,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:17.780699Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 83.7,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:18.030772Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 84.87,
+    "unit": "%",
+    "timestamp": "2025-12-03T12:55:18.311871Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 40.41,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:02.887056Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 94.06,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:03.138049Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 75.57,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:03.403009Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 119.15,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:03.622066Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 60.77,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:03.825535Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 51.12,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:04.076838Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 84.49,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:04.293080Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 64.92,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:04.542750Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 71.81,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:04.775729Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 41.6,
+    "unit": "%",
+    "timestamp": "2025-12-03T13:01:04.995317Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 35.46,
+    "unit": "AQI",
+    "timestamp": "2025-12-03T13:02:03.435897Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 113.48,
+    "unit": "AQI",
+    "timestamp": "2025-12-03T13:02:03.780127Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 78.83,
+    "unit": "AQI",
+    "timestamp": "2025-12-03T13:02:04.080178Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 94.89,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:31.940921Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 51.3,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:33.641004Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 75.78,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:33.875864Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 42.84,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:34.141494Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 77.3,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:34.409054Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 67.24,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:34.677034Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 62.96,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:34.931533Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 60.44,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:35.198055Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 54.69,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:35.434076Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 45.82,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:35.697368Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 49.09,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:35.965568Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 81.02,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:36.201435Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 92.7,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:36.424174Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 75.39,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:36.643241Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 74.96,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:36.896041Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_hum1",
+    "sensorType": "humidity",
+    "value": 43.33,
+    "unit": "%",
+    "timestamp": "2025-12-04T11:28:37.147377Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 122.84,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:47.901418Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 158.36,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:50.693995Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 139.62,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:50.990484Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 106.14,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:51.275661Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 363.39,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:51.539886Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 109.79,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:51.777096Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 81.13,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:52.057532Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 128.27,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:52.344302Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 76.78,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:52.580638Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 98.98,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:52.881161Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 64.18,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:53.149504Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 59.25,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:53.383687Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 67.24,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:53.600375Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 114.67,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:53.854999Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 78.37,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:54.091893Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 136.84,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:54.359380Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 64.51,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:54.642949Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 130.66,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:54.910156Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 84.73,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:55.194577Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 53.54,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:55.464507Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 64.79,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:55.747585Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 18.01,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:55.968389Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 95.96,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:56.232195Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 75.37,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:56.483049Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  },
+  {
+    "sensorId": "cloud_air1",
+    "sensorType": "air_quality",
+    "value": 116.76,
+    "unit": "AQI",
+    "timestamp": "2025-12-04T15:04:56.735584Z",
+    "location": {
+      "lat": 50.4501,
+      "lon": 30.5234,
+      "name": "Azure Lviv"
+    }
+  }
+]
