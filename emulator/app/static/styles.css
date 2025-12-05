@@ -1,0 +1,4 @@
+body { font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif; }
+.table-hover tbody tr:hover { background-color: #f9fbff; }
+.badge { font-size: 0.95rem; }
+.card-header h5 { display: flex; align-items: center; gap: 8px; }

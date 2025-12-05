@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IoT Sensor Emulator Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #e9ecef;       
+            --card-bg: #ffffff;
+            --running: #d1f8d1;
+            --stopped: #f3f3f3;
+            --error: #ffe5e5;
+        }
+
+        body {
+            background: var(--bg);
+        }
+
+        .sensor-card {
+            border-radius: 20px;
+            padding: 22px;
+            background: var(--card-bg);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            transition: 0.3s ease;
+            text-align: center;
+        }
+
+        .sensor-card.running {
+            background: var(--running);
+            transform: translateY(-4px);
+        }
+
+        .sensor-card.stopped {
+            background: var(--stopped);
+        }
+
+        .sensor-card.error {
+            background: var(--error);
+        }
+
+        .sensor-card h4 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .sensor-card h2 {
+            font-size: 2.2rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+
+        .value-normal {
+            color: #28a745; 
+        }
+        .value-medium {
+            color: #ffc107; 
+        }
+        .value-high {
+            color: #dc3545; 
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 6px;
+            display: inline-block;
+        }
+
+        .history-box {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+        }
+
+        .text-center {
+            background: rgb(21, 129, 245);
+            border-radius: 16px;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<div class="container py-4">
+
+    <h1 class="text-center">📡 IoT Sensor Control Panel</h1>
+
+    <div class="row g-4">
+
+        <!-- Temperature -->
+        <div class="col-md-4">
+            <div class="sensor-card" id="card-cloud_temp1">
+                <h4>🌡️ Temperature</h4>
+                <div class="d-flex justify-content-center mb-3">
+                    <span class="status-dot bg-secondary" id="dot-cloud_temp1"></span>
+                    <span id="txt-cloud_temp1">Stopped</span>
+                </div>
+                <h2 id="val-cloud_temp1" class="value-normal">-- °C</h2>
+                <p class="text-muted" id="time-cloud_temp1">No data</p>
+                <button class="btn btn-success w-100 mt-2" onclick="startSensor('cloud_temp1')">Start</button>
+                <button class="btn btn-danger w-100 mt-2" onclick="stopSensor('cloud_temp1')">Stop</button>
+            </div>
+        </div>
+
+        <!-- Humidity -->
+        <div class="col-md-4">
+            <div class="sensor-card" id="card-cloud_hum1">
+                <h4>💧 Humidity</h4>
+                <div class="d-flex justify-content-center mb-3">
+                    <span class="status-dot bg-secondary" id="dot-cloud_hum1"></span>
+                    <span id="txt-cloud_hum1">Stopped</span>
+                </div>
+                <h2 id="val-cloud_hum1" class="value-normal">-- %</h2>
+                <p class="text-muted" id="time-cloud_hum1">No data</p>
+                <button class="btn btn-success w-100 mt-2" onclick="startSensor('cloud_hum1')">Start</button>
+                <button class="btn btn-danger w-100 mt-2" onclick="stopSensor('cloud_hum1')">Stop</button>
+            </div>
+        </div>
+
+        <!-- Air Quality -->
+        <div class="col-md-4">
+            <div class="sensor-card" id="card-cloud_air1">
+                <h4>🫁 Air Quality</h4>
+                <div class="d-flex justify-content-center mb-3">
+                    <span class="status-dot bg-secondary" id="dot-cloud_air1"></span>
+                    <span id="txt-cloud_air1">Stopped</span>
+                </div>
+                <h2 id="val-cloud_air1" class="value-normal">-- AQI</h2>
+                <p class="text-muted" id="time-cloud_air1">No data</p>
+                <button class="btn btn-success w-100 mt-2" onclick="startSensor('cloud_air1')">Start</button>
+                <button class="btn btn-danger w-100 mt-2" onclick="stopSensor('cloud_air1')">Stop</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        .
+    </div>
+    <button class="btn btn-warning w-100 mt-2" onclick="sendBadData()">
+    🚫 Send Bad Data
+    </button>
+
+    <!-- HISTORY SECTION -->
+    <h3 class="mt-5">📜 Sensor History</h3>
+    <div class="history-box mt-3">
+        <button class="btn btn-outline-primary mb-3" onclick="loadHistory()">
+            <i class="bi bi-clock-history"></i> Load History
+        </button>
+        <button class="btn btn-outline-danger mb-3" onclick="clearHistory()">
+            <i class="bi bi-trash"></i> Clear History
+        </button>
+        <div id="history-container">Press *Load History*</div>
+    </div>
+</div>
+
+<script>
+    async function sendBadData() {
+        const r = await fetch("/send_bad", { method: "POST" });
+        const data = await r.json();
+        alert(data.status);
+    }
+
+    async function startSensor(id) {
+        await fetch(`/start/${id}`);
+        checkStatus(id);
+    }
+    async function stopSensor(id) {
+        await fetch(`/stop/${id}`);
+        checkStatus(id);
+    }
+    async function checkStatus(id) {
+        const r = await fetch(`/status/${id}`);
+        const data = await r.json();
+        setCardState(id, data.status.includes("running"));
+    }
+    function setCardState(id, isRunning) {
+        const card = document.getElementById(`card-${id}`);
+        const dot = document.getElementById(`dot-${id}`);
+        const txt = document.getElementById(`txt-${id}`);
+        if (isRunning) {
+            card.classList.add("running");
+            card.classList.remove("stopped");
+            dot.className = "status-dot bg-success";
+            txt.textContent = "Running";
+        } else {
+            card.classList.remove("running");
+            card.classList.add("stopped");
+            dot.className = "status-dot bg-secondary";
+            txt.textContent = "Stopped";
+        }
+    }
+    function setColoredValue(elementId, value, unit, thresholds) {
+        const el = document.getElementById(elementId);
+        let cls = "value-normal";
+        if (value >= thresholds.high) cls = "value-high";
+        else if (value >= thresholds.medium) cls = "value-medium";
+        el.className = cls;
+        el.textContent = value + " " + unit;
+    }
+    async function refreshLatest() {
+        const r = await fetch("/latest");
+        const d = await r.json();
+        if (d["cloud_temp1"]) {
+            setColoredValue("val-cloud_temp1", d["cloud_temp1"].value, d["cloud_temp1"].unit, {medium:25, high:30});
+            document.getElementById("time-cloud_temp1").textContent = d["cloud_temp1"].timestamp;
+        }
+        if (d["cloud_hum1"]) {
+            setColoredValue("val-cloud_hum1", d["cloud_hum1"].value, d["cloud_hum1"].unit, {medium:60, high:80});
+            document.getElementById("time-cloud_hum1").textContent = d["cloud_hum1"].timestamp;
+        }
+        if (d["cloud_air1"]) {
+            setColoredValue("val-cloud_air1", d["cloud_air1"].value, d["cloud_air1"].unit, {medium:50, high:100});
+            document.getElementById("time-cloud_air1").textContent = d["cloud_air1"].timestamp;
+        }
+    }
+    setInterval(refreshLatest, 2000);
+    refreshLatest();
+    // --- HISTORY ---
+    async function loadHistory() {
+        const r = await fetch("/history");
+        if (r.status !== 200) {
+            document.getElementById("history-container").innerHTML =
+                "<p class='text-danger'>No history endpoint found</p>";
+            return;
+        }
+
+        const arr = await r.json();
+
+        let html = `
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Sensor</th>
+                        <th>Value</th>
+                        <th>Unit</th>
+                        <th>Location</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        arr.forEach(x => {
+            html += `
+                <tr>
+                    <td>${x.sensorId}</td>
+                    <td>${x.value}</td>
+                    <td>${x.unit}</td>
+                    <td>${x.location?.name || "-"}</td>
+                    <td>${x.timestamp}</td>
+                </tr>
+            `;
+        });
+
+        html += "</tbody></table>";
+
+        document.getElementById("history-container").innerHTML = html;
+    }
+
+    async function clearHistory() {
+        await fetch("/history/clear", { method: "POST" });
+        document.getElementById("history-container").innerHTML =
+            "<p class='text-muted'>History cleared.</p>";
+    }
+</script>
+
+</body>
+</html>
